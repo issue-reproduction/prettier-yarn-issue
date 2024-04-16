@@ -2,5 +2,14 @@
   "name": "yarn-4",
   "version": "0.0.0",
   "description": "yarn-4",
-  "type": "module"
+  "type": "module",
+  "volta": {
+    "node": "20.12.2",
+    "yarn": "4.1.1"
+  },
+  "engines": {
+    "node": ">=20",
+    "yarn": "4.1.1"
+  },
+  "packageManager": "yarn@4.1.1"
 }
