@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "description": "yarn-4",
   "type": "module",
+  "scripts": {
+    "🧹 ------- FORMAT ------- 🧹": "",
+    "fix:prettier": "prettier '**' --write",
+    "lint:prettier": "prettier '**' --list-different"
+  },
   "volta": {
     "node": "20.12.2",
     "yarn": "4.1.1"
@@ -11,5 +16,8 @@
     "node": ">=20",
     "yarn": "4.1.1"
   },
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
